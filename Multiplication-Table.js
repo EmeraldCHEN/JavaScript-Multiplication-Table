@@ -1,6 +1,7 @@
 function addValue(){
-var a=3;
-var b=5;
-var c=a+b;
-console.log(a,"+",b,"=",c);
+  for(var i=0;i<9;I++){
+    for(var j=0;j<=I;J++){
+      console.log((j+1)+"*"+(i+1)+"="+(j+1)*(i+1));
+    }  
+  }
 }
